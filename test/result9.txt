@@ -1,0 +1,2040 @@
+Encoding: UTF-8
+222 pages parsed, 222 pages processed.
+page 1:
+page 2:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, left
+  para 3: 3 - 3, center
+  para 4: 4 - 5, indent
+  para 5: 6 - 7, indent
+page 3:
+  para 1: 1 - 1, left
+  para 2: 2 - 3, left
+  para 3: 4 - 4, left
+  para 4: 5 - 5, left
+  para 5: 6 - 6, left
+  para 6: 7 - 10, left
+  para 7: 11 - 11, left
+  para 8: 12 - 15, left
+  para 9: 16 - 16, left
+  para 10: 17 - 17, left
+  para 11: 18 - 18, left
+  para 12: 19 - 21, left
+  para 13: 22 - 24, left
+  para 14: 25 - 25, left
+  para 15: 26 - 27, left
+  para 16: 28 - 28, left
+  para 17: 29 - 29, left
+  para 18: 30 - 30, left
+  para 19: 31 - 31, left
+  para 20: 32 - 32, left
+  para 21: 33 - 33, left
+page 4:
+  para 1: 1 - 1, left
+  para 2: 2 - 2, left
+  para 3: 3 - 3, left
+  para 4: 4 - 4, left
+  para 5: 5 - 5, left
+  para 6: 6 - 6, left
+  para 7: 7 - 7, left
+  para 8: 8 - 8, left
+  para 9: 9 - 9, left
+  para 10: 10 - 10, left
+  para 11: 11 - 11, left
+  para 12: 12 - 12, left
+  para 13: 13 - 13, left
+  para 14: 14 - 14, left
+page 5:
+  para 1: 1 - 1, blockquote
+  para 2: 2 - 2, blockquote
+  para 3: 3 - 3, blockquote
+  para 4: 4 - 4, blockquote
+  para 5: 5 - 5, blockquote
+  para 6: 6 - 6, blockquote
+  para 7: 7 - 7, blockquote
+  para 8: 8 - 8, blockquote
+  para 9: 9 - 9, blockquote
+  para 10: 10 - 10, blockquote
+  para 11: 11 - 11, blockquote
+  para 12: 12 - 12, blockquote
+  para 13: 13 - 13, blockquote
+  para 14: 14 - 14, blockquote
+  para 15: 15 - 15, blockquote
+  para 16: 16 - 16, blockquote
+  para 17: 17 - 17, blockquote
+  para 18: 18 - 18, blockquote
+page 6:
+  para 1: 1 - 1, blockquote
+  para 2: 2 - 9, indent
+  para 3: 10 - 21, indent
+  para 4: 22 - 27, indent
+page 7:
+  para 1: 1 - 3, left
+  para 2: 4 - 12, indent
+  para 3: 13 - 24, indent
+  para 4: 25 - 34, indent
+  para 5: 35 - 43, indent
+page 8:
+  para 1: 1 - 7, indent
+  para 2: 8 - 14, indent
+  para 3: 15 - 18, indent
+  para 4: 19 - 19, left
+page 9:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+  para 3: 3 - 17, indent
+  para 4: 18 - 23, indent
+page 10:
+  para 1: 1 - 13, left
+  para 2: 14 - 29, indent
+  para 3: 30 - 35, indent
+page 11:
+  para 1: 1 - 15, left
+  para 2: 16 - 34, indent
+  para 3: 35 - 35, indent
+page 12:
+  para 1: 1 - 14, left
+  para 2: 15 - 33, indent
+  para 3: 34 - 34, indent
+page 13:
+  para 1: 1 - 17, left
+  para 2: 18 - 30, indent
+  para 3: 31 - 35, indent
+page 14:
+  para 1: 1 - 9, left
+  para 2: 10 - 35, indent
+page 15:
+  para 1: 1 - 3, left
+  para 2: 4 - 22, indent
+  para 3: 23 - 34, indent
+page 16:
+  para 1: 1 - 9, left
+  para 2: 10 - 24, indent
+  para 3: 25 - 35, indent
+page 17:
+  para 1: 1 - 4, left
+  para 2: 5 - 30, indent
+  para 3: 31 - 33, indent
+page 18:
+  para 1: 1 - 16, left
+  para 2: 17 - 35, indent
+page 19:
+  para 1: 1 - 4, left
+  para 2: 5 - 32, indent
+  para 3: 33 - 34, indent
+page 20:
+  para 1: 1 - 8, left
+  para 2: 9 - 24, left
+  para 3: 25 - 34, indent
+page 21:
+  para 1: 1 - 9, left
+  para 2: 10 - 31, indent
+  para 3: 32 - 34, indent
+page 22:
+  para 1: 1 - 25, left
+  para 2: 26 - 35, indent
+page 23:
+  para 1: 1 - 12, left
+  para 2: 13 - 34, left
+page 24:
+  para 1: 1 - 4, left
+  para 2: 5 - 31, indent
+  para 3: 32 - 34, indent
+page 25:
+  para 1: 1 - 21, left
+  para 2: 22 - 35, indent
+page 26:
+  para 1: 1 - 13, left
+  para 2: 14 - 30, indent
+  para 3: 31 - 36, indent
+page 27:
+  para 1: 1 - 18, left
+  para 2: 19 - 35, indent
+page 28:
+  para 1: 1 - 2, left
+  para 2: 3 - 18, indent
+  para 3: 19 - 29, indent
+  para 4: 30 - 36, indent
+page 29:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+  para 3: 3 - 23, left
+page 30:
+  para 1: 1 - 2, left
+  para 2: 3 - 18, indent
+  para 3: 19 - 34, indent
+page 31:
+  para 1: 1 - 8, left
+  para 2: 9 - 31, indent
+  para 3: 32 - 34, indent
+page 32:
+  para 1: 1 - 5, left
+  para 2: 6 - 13, blockquote
+  para 3: 14 - 36, indent
+page 33:
+  para 1: 1 - 19, left
+  para 2: 20 - 35, indent
+page 34:
+  para 1: 1 - 15, left
+  para 2: 16 - 35, indent
+page 35:
+  para 1: 1 - 4, left
+  para 2: 5 - 33, indent
+  para 3: 34 - 34, indent
+page 36:
+  para 1: 1 - 20, left
+  para 2: 21 - 35, indent
+page 37:
+  para 1: 1 - 6, left
+  para 2: 7 - 28, indent
+  para 3: 29 - 35, indent
+page 38:
+  para 1: 1 - 23, left
+  para 2: 24 - 35, indent
+page 39:
+  para 1: 1 - 12, left
+  para 2: 13 - 35, indent
+page 40:
+  para 1: 1 - 4, left
+  para 2: 5 - 28, indent
+  para 3: 29 - 33, indent
+page 41:
+  para 1: 1 - 21, left
+  para 2: 22 - 34, indent
+page 42:
+  para 1: 1 - 13, left
+  para 2: 14 - 35, indent
+page 43:
+  para 1: 1 - 24, indent
+  para 2: 25 - 36, indent
+page 44:
+  para 1: 1 - 14, left
+  para 2: 15 - 35, indent
+page 45:
+  para 1: 1 - 13, left
+  para 2: 14 - 35, indent
+page 46:
+  para 1: 1 - 23, indent
+  para 2: 24 - 35, indent
+page 47:
+  para 1: 1 - 14, left
+  para 2: 15 - 35, indent
+page 48:
+  para 1: 1 - 7, left
+  para 2: 8 - 23, indent
+  para 3: 24 - 35, indent
+page 49:
+  para 1: 1 - 19, left
+  para 2: 20 - 35, indent
+page 50:
+  para 1: 1 - 13, left
+  para 2: 14 - 34, indent
+page 51:
+  para 1: 1 - 8, left
+page 52:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+  para 3: 3 - 19, indent
+  para 4: 20 - 20, indent
+  para 5: 21 - 24, left
+page 53:
+  para 1: 1 - 9, left
+  para 2: 10 - 22, indent
+  para 3: 23 - 35, indent
+page 54:
+  para 1: 1 - 2, left
+  para 2: 3 - 35, indent
+page 55:
+  para 1: 1 - 29, indent
+  para 2: 30 - 35, indent
+page 56:
+  para 1: 1 - 21, left
+  para 2: 22 - 34, indent
+page 57:
+  para 1: 1 - 23, left
+  para 2: 24 - 35, indent
+page 58:
+  para 1: 1 - 15, left
+  para 2: 16 - 32, indent
+  para 3: 33 - 35, indent
+page 59:
+  para 1: 1 - 34, left
+  para 2: 35 - 35, indent
+page 60:
+  para 1: 1 - 20, left
+  para 2: 21 - 34, indent
+page 61:
+  para 1: 1 - 9, left
+  para 2: 10 - 33, indent
+  para 3: 34 - 35, indent
+page 62:
+  para 1: 1 - 14, left
+  para 2: 15 - 35, indent
+page 63:
+  para 1: 1 - 30, indent
+  para 2: 31 - 35, indent
+page 64:
+  para 1: 1 - 10, left
+  para 2: 11 - 27, indent
+  para 3: 28 - 34, indent
+page 65:
+  para 1: 1 - 15, left
+  para 2: 16 - 35, indent
+page 66:
+  para 1: 1 - 12, left
+  para 2: 13 - 33, indent
+  para 3: 34 - 34, indent
+page 67:
+  para 1: 1 - 20, left
+  para 2: 21 - 36, indent
+page 68:
+  para 1: 1 - 34, left
+page 69:
+  para 1: 1 - 23, indent
+  para 2: 24 - 36, indent
+page 70:
+  para 1: 1 - 17, left
+  para 2: 18 - 34, indent
+page 71:
+  para 1: 1 - 11, left
+  para 2: 12 - 34, indent
+  para 3: 35 - 35, indent
+page 72:
+  para 1: 1 - 31, left
+  para 2: 32 - 34, indent
+page 73:
+  para 1: 1 - 27, left
+  para 2: 28 - 35, indent
+page 74:
+  para 1: 1 - 30, left
+page 75:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+  para 3: 3 - 17, indent
+  para 4: 18 - 24, left
+page 76:
+  para 1: 1 - 6, left
+  para 2: 7 - 34, indent
+page 77:
+  para 1: 1 - 2, left
+  para 2: 3 - 20, indent
+  para 3: 21 - 35, indent
+page 78:
+  para 1: 1 - 2, left
+  para 2: 3 - 26, indent
+  para 3: 27 - 35, indent
+page 79:
+  para 1: 1 - 15, left
+  para 2: 16 - 34, indent
+page 80:
+  para 1: 1 - 6, left
+  para 2: 7 - 36, indent
+page 81:
+  para 1: 1 - 31, indent
+  para 2: 32 - 35, indent
+page 82:
+  para 1: 1 - 32, left
+  para 2: 33 - 34, indent
+page 83:
+  para 1: 1 - 33, left
+  para 2: 34 - 34, indent
+  para 3: 35 - 35, indent
+page 84:
+  para 1: 1 - 21, left
+  para 2: 22 - 35, indent
+page 85:
+  para 1: 1 - 6, left
+  para 2: 7 - 35, indent
+page 86:
+  para 1: 1 - 3, left
+  para 2: 4 - 21, indent
+  para 3: 22 - 33, indent
+page 87:
+  para 1: 1 - 2, left
+  para 2: 3 - 20, indent
+  para 3: 21 - 35, indent
+page 88:
+  para 1: 1 - 2, left
+  para 2: 3 - 27, indent
+  para 3: 28 - 33, indent
+  para 4: 34 - 34, blockquote
+page 89:
+  para 1: 1 - 17, left
+  para 2: 18 - 34, indent
+  para 3: 35 - 35, blockquote
+page 90:
+  para 1: 1 - 13, left
+  para 2: 14 - 35, indent
+page 91:
+  para 1: 1 - 4, left
+  para 2: 5 - 25, indent
+  para 3: 26 - 32, indent
+  para 4: 33 - 34, left
+page 92:
+  para 1: 1 - 12, left
+  para 2: 13 - 33, indent
+  para 3: 34 - 34, left
+page 93:
+  para 1: 1 - 10, left
+  para 2: 11 - 22, indent
+  para 3: 23 - 35, indent
+page 94:
+  para 1: 1 - 8, left
+  para 2: 9 - 34, indent
+page 95:
+  para 1: 1 - 3, left
+  para 2: 4 - 31, indent
+  para 3: 32 - 35, indent
+page 96:
+  para 1: 1 - 22, left
+  para 2: 23 - 36, indent
+page 97:
+  para 1: 1 - 7, left
+  para 2: 8 - 34, indent
+  para 3: 35 - 35, indent
+page 98:
+  para 1: 1 - 21, left
+  para 2: 22 - 35, indent
+page 99:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+  para 3: 3 - 23, indent
+page 100:
+  para 1: 1 - 2, left
+  para 2: 3 - 17, indent
+  para 3: 18 - 25, indent
+  para 4: 26 - 34, indent
+page 101:
+  para 1: 1 - 12, indent
+  para 2: 13 - 35, indent
+page 102:
+  para 1: 1 - 3, left
+  para 2: 4 - 23, indent
+  para 3: 24 - 35, indent
+page 103:
+  para 1: 1 - 10, left
+  para 2: 11 - 30, indent
+  para 3: 31 - 35, indent
+page 104:
+  para 1: 1 - 18, left
+  para 2: 19 - 35, indent
+page 105:
+  para 1: 1 - 9, left
+  para 2: 10 - 35, indent
+page 106:
+  para 1: 1 - 7, left
+  para 2: 8 - 35, indent
+page 107:
+  para 1: 1 - 2, left
+  para 2: 3 - 21, indent
+  para 3: 22 - 31, indent
+  para 4: 32 - 35, indent
+page 108:
+  para 1: 1 - 20, left
+  para 2: 21 - 34, indent
+page 109:
+  para 1: 1 - 10, left
+  para 2: 11 - 31, indent
+  para 3: 32 - 34, indent
+page 110:
+  para 1: 1 - 16, left
+  para 2: 17 - 35, indent
+page 111:
+  para 1: 1 - 3, left
+  para 2: 4 - 18, indent
+  para 3: 19 - 35, indent
+page 112:
+  para 1: 1 - 11, left
+  para 2: 12 - 35, indent
+page 113:
+  para 1: 1 - 24, indent
+  para 2: 25 - 35, indent
+page 114:
+  para 1: 1 - 18, left
+  para 2: 19 - 34, indent
+page 115:
+  para 1: 1 - 3, left
+  para 2: 4 - 23, indent
+  para 3: 24 - 34, indent
+page 116:
+  para 1: 1 - 14, left
+  para 2: 15 - 35, indent
+page 117:
+  para 1: 1 - 5, left
+  para 2: 6 - 30, indent
+  para 3: 31 - 34, indent
+page 118:
+  para 1: 1 - 30, left
+  para 2: 31 - 33, indent
+  para 3: 34 - 34, blockquote
+page 119:
+  para 1: 1 - 23, left
+  para 2: 24 - 35, indent
+page 120:
+  para 1: 1 - 20, left
+page 121:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+  para 3: 3 - 3, center
+  para 4: 4 - 25, indent
+page 122:
+  para 1: 1 - 4, left
+  para 2: 5 - 27, indent
+  para 3: 28 - 35, indent
+page 123:
+  para 1: 1 - 12, left
+  para 2: 13 - 35, indent
+page 124:
+  para 1: 1 - 2, left
+  para 2: 3 - 20, indent
+  para 3: 21 - 34, indent
+page 125:
+  para 1: 1 - 4, left
+  para 2: 5 - 21, indent
+  para 3: 22 - 34, indent
+page 126:
+  para 1: 1 - 23, left
+  para 2: 24 - 34, indent
+page 127:
+  para 1: 1 - 13, left
+  para 2: 14 - 35, indent
+page 128:
+  para 1: 1 - 13, left
+  para 2: 14 - 35, indent
+page 129:
+  para 1: 1 - 7, left
+  para 2: 8 - 23, indent
+  para 3: 24 - 34, indent
+page 130:
+  para 1: 1 - 6, left
+  para 2: 7 - 28, indent
+  para 3: 29 - 35, indent
+page 131:
+  para 1: 1 - 16, left
+  para 2: 17 - 34, indent
+  para 3: 35 - 35, indent
+page 132:
+  para 1: 1 - 18, left
+  para 2: 19 - 34, indent
+page 133:
+  para 1: 1 - 9, left
+  para 2: 10 - 35, indent
+page 134:
+  para 1: 1 - 9, left
+  para 2: 10 - 33, indent
+  para 3: 34 - 35, indent
+page 135:
+  para 1: 1 - 20, left
+  para 2: 21 - 34, indent
+page 136:
+  para 1: 1 - 7, left
+  para 2: 8 - 34, indent
+page 137:
+  para 1: 1 - 5, left
+  para 2: 6 - 31, indent
+  para 3: 32 - 33, indent
+page 138:
+  para 1: 1 - 13, left
+  para 2: 14 - 27, indent
+  para 3: 28 - 35, indent
+page 139:
+  para 1: 1 - 12, left
+  para 2: 13 - 33, indent
+  para 3: 34 - 35, indent
+page 140:
+  para 1: 1 - 12, left
+  para 2: 13 - 26, indent
+  para 3: 27 - 31, indent
+  para 4: 32 - 32, left
+page 141:
+  para 1: 1 - 9, left
+  para 2: 10 - 28, indent
+page 142:
+  para 1: 1 - 1, center
+  para 2: 2 - 3, center
+  para 3: 4 - 22, indent
+  para 4: 23 - 24, indent
+page 143:
+  para 1: 1 - 10, left
+  para 2: 11 - 28, indent
+  para 3: 29 - 35, indent
+page 144:
+  para 1: 1 - 14, left
+  para 2: 15 - 35, indent
+page 145:
+  para 1: 1 - 5, left
+  para 2: 6 - 23, indent
+  para 3: 24 - 34, indent
+page 146:
+  para 1: 1 - 8, left
+  para 2: 9 - 29, indent
+  para 3: 30 - 33, indent
+page 147:
+  para 1: 1 - 9, left
+  para 2: 10 - 26, indent
+  para 3: 27 - 35, indent
+page 148:
+  para 1: 1 - 18, left
+  para 2: 19 - 33, indent
+  para 3: 34 - 34, indent
+page 149:
+  para 1: 1 - 20, left
+  para 2: 21 - 34, indent
+page 150:
+  para 1: 1 - 14, left
+  para 2: 15 - 35, indent
+page 151:
+  para 1: 1 - 25, indent
+  para 2: 26 - 36, indent
+page 152:
+  para 1: 1 - 9, left
+  para 2: 10 - 27, indent
+  para 3: 28 - 35, indent
+page 153:
+  para 1: 1 - 14, left
+  para 2: 15 - 23, indent
+  para 3: 24 - 35, indent
+page 154:
+  para 1: 1 - 11, left
+  para 2: 12 - 29, indent
+  para 3: 30 - 35, indent
+page 155:
+  para 1: 1 - 7, left
+  para 2: 8 - 21, indent
+  para 3: 22 - 35, indent
+page 156:
+  para 1: 1 - 9, left
+  para 2: 10 - 31, indent
+  para 3: 32 - 33, indent
+page 157:
+  para 1: 1 - 34, left
+  para 2: 35 - 35, indent
+page 158:
+  para 1: 1 - 7, left
+  para 2: 8 - 27, indent
+  para 3: 28 - 34, indent
+page 159:
+  para 1: 1 - 15, left
+  para 2: 16 - 34, indent
+page 160:
+  para 1: 1 - 5, left
+  para 2: 6 - 28, indent
+  para 3: 29 - 34, indent
+page 161:
+  para 1: 1 - 19, indent
+  para 2: 20 - 35, indent
+page 162:
+  para 1: 1 - 10, left
+  para 2: 11 - 35, indent
+page 163:
+  para 1: 1 - 3, left
+  para 2: 4 - 34, indent
+  para 3: 35 - 36, indent
+page 164:
+  para 1: 1 - 15, left
+  para 2: 16 - 35, indent
+page 165:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+  para 3: 3 - 23, indent
+page 166:
+  para 1: 1 - 21, left
+  para 2: 22 - 35, indent
+page 167:
+  para 1: 1 - 10, left
+  para 2: 11 - 35, indent
+page 168:
+  para 1: 1 - 6, left
+  para 2: 7 - 24, indent
+  para 3: 25 - 35, indent
+page 169:
+  para 1: 1 - 12, left
+  para 2: 13 - 34, indent
+  para 3: 35 - 35, indent
+page 170:
+  para 1: 1 - 24, left
+  para 2: 25 - 34, indent
+page 171:
+  para 1: 1 - 11, left
+  para 2: 12 - 30, indent
+  para 3: 31 - 34, indent
+page 172:
+  para 1: 1 - 21, left
+  para 2: 22 - 35, indent
+page 173:
+  para 1: 1 - 4, left
+  para 2: 5 - 30, indent
+  para 3: 31 - 35, indent
+page 174:
+  para 1: 1 - 18, left
+  para 2: 19 - 37, indent
+  para 3: 38 - 38, right
+page 175:
+  para 1: 1 - 5, left
+  para 2: 6 - 28, indent
+  para 3: 29 - 36, indent
+page 176:
+  para 1: 1 - 17, left
+  para 2: 18 - 35, indent
+  para 3: 36 - 36, center
+page 177:
+  para 1: 1 - 22, left
+  para 2: 23 - 35, indent
+page 178:
+  para 1: 1 - 11, left
+  para 2: 12 - 33, indent
+  para 3: 34 - 37, indent
+page 179:
+  para 1: 1 - 14, left
+  para 2: 15 - 32, indent
+  para 3: 33 - 35, indent
+page 180:
+  para 1: 1 - 8, left
+  para 2: 9 - 36, indent
+page 181:
+  para 1: 1 - 7, left
+  para 2: 8 - 34, indent
+page 182:
+  para 1: 1 - 31, indent
+  para 2: 32 - 34, indent
+page 183:
+  para 1: 1 - 28, left
+  para 2: 29 - 35, indent
+page 184:
+  para 1: 1 - 16, left
+  para 2: 17 - 35, indent
+page 185:
+  para 1: 1 - 13, left
+  para 2: 14 - 34, indent
+page 186:
+  para 1: 1 - 6, indent
+  para 2: 7 - 36, indent
+page 187:
+  para 1: 1 - 28, indent
+page 188:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+  para 3: 3 - 3, center
+  para 4: 4 - 23, indent
+  para 5: 24 - 24, indent
+page 189:
+  para 1: 1 - 24, left
+  para 2: 25 - 34, indent
+page 190:
+  para 1: 1 - 8, left
+  para 2: 9 - 31, indent
+  para 3: 32 - 35, indent
+page 191:
+  para 1: 1 - 21, left
+  para 2: 22 - 34, indent
+page 192:
+  para 1: 1 - 18, left
+  para 2: 19 - 35, indent
+page 193:
+  para 1: 1 - 6, left
+  para 2: 7 - 31, indent
+  para 3: 32 - 35, indent
+page 194:
+  para 1: 1 - 22, left
+  para 2: 23 - 32, indent
+  para 3: 33 - 33, blockquote
+page 195:
+  para 1: 1 - 14, left
+  para 2: 15 - 33, indent
+  para 3: 34 - 34, indent
+page 196:
+  para 1: 1 - 21, left
+  para 2: 22 - 35, indent
+page 197:
+  para 1: 1 - 14, left
+  para 2: 15 - 33, indent
+  para 3: 34 - 34, indent
+page 198:
+  para 1: 1 - 23, left
+  para 2: 24 - 35, indent
+page 199:
+  para 1: 1 - 11, left
+  para 2: 12 - 34, indent
+page 200:
+  para 1: 1 - 2, left
+  para 2: 3 - 25, indent
+  para 3: 26 - 34, indent
+page 201:
+  para 1: 1 - 16, left
+  para 2: 17 - 35, indent
+page 202:
+  para 1: 1 - 6, left
+  para 2: 7 - 35, indent
+page 203:
+  para 1: 1 - 21, indent
+  para 2: 22 - 33, indent
+  para 3: 34 - 35, indent
+page 204:
+  para 1: 1 - 17, left
+  para 2: 18 - 35, indent
+page 205:
+  para 1: 1 - 7, left
+  para 2: 8 - 33, indent
+page 206:
+  para 1: 1 - 29, indent
+  para 2: 30 - 34, indent
+page 207:
+  para 1: 1 - 20, left
+  para 2: 21 - 35, indent
+page 208:
+  para 1: 1 - 20, left
+  para 2: 21 - 35, indent
+page 209:
+  para 1: 1 - 12, left
+  para 2: 13 - 35, indent
+page 210:
+  para 1: 1 - 8, left
+  para 2: 9 - 35, indent
+page 211:
+  para 1: 1 - 3, left
+  para 2: 4 - 22, indent
+page 212:
+  para 1: 1 - 1, center
+  para 2: 2 - 6, indent
+  para 3: 7 - 23, indent
+page 213:
+  para 1: 1 - 7, left
+  para 2: 8 - 27, indent
+  para 3: 28 - 37, indent
+page 214:
+  para 1: 1 - 1, left
+  para 2: 2 - 16, indent
+  para 3: 17 - 24, indent
+  para 4: 25 - 36, indent
+page 215:
+  para 1: 1 - 2, indent
+  para 2: 3 - 17, indent
+page 216:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, indent
+  para 3: 3 - 3, left
+  para 4: 4 - 4, left
+  para 5: 5 - 5, left
+  para 6: 6 - 6, indent
+  para 7: 7 - 7, left
+  para 8: 8 - 8, left
+  para 9: 9 - 9, left
+  para 10: 10 - 10, left
+  para 11: 11 - 11, indent
+  para 12: 12 - 12, left
+  para 13: 13 - 13, left
+  para 14: 14 - 14, left
+  para 15: 15 - 15, left
+  para 16: 16 - 16, left
+  para 17: 17 - 17, left
+  para 18: 18 - 18, indent
+  para 19: 19 - 19, left
+  para 20: 20 - 20, left
+  para 21: 21 - 21, left
+  para 22: 22 - 22, left
+  para 23: 23 - 23, left
+  para 24: 24 - 24, left
+  para 25: 25 - 25, left
+  para 26: 26 - 26, left
+  para 27: 27 - 27, indent
+  para 28: 28 - 28, left
+  para 29: 29 - 29, left
+  para 30: 30 - 30, left
+  para 31: 31 - 31, left
+  para 32: 32 - 32, left
+  para 33: 33 - 33, left
+  para 34: 34 - 34, left
+  para 35: 35 - 35, indent
+  para 36: 36 - 36, left
+  para 37: 37 - 37, left
+  para 38: 38 - 38, left
+page 217:
+  para 1: 1 - 1, left
+  para 2: 2 - 2, left
+  para 3: 3 - 30, left
+  para 4: 31 - 53, left
+  para 5: 54 - 54, left
+  para 6: 55 - 58, left
+  para 7: 59 - 60, indent
+  para 8: 61 - 65, indent
+page 218:
+  para 1: 1 - 6, blockquote
+  para 2: 7 - 7, indent
+  para 3: 8 - 23, blockquote
+  para 4: 24 - 24, indent
+  para 5: 25 - 36, blockquote
+  para 6: 37 - 37, indent
+  para 7: 38 - 41, blockquote
+  para 8: 42 - 42, indent
+  para 9: 43 - 55, blockquote
+  para 10: 56 - 56, indent
+  para 11: 57 - 66, blockquote
+page 219:
+  para 1: 1 - 3, blockquote
+  para 2: 4 - 4, indent
+  para 3: 5 - 17, blockquote
+  para 4: 18 - 18, indent
+  para 5: 19 - 50, blockquote
+  para 6: 51 - 51, indent
+  para 7: 52 - 56, blockquote
+  para 8: 57 - 57, indent
+  para 9: 58 - 72, blockquote
+page 220:
+  para 1: 1 - 15, left
+  para 2: 16 - 16, left
+  para 3: 17 - 25, left
+  para 4: 26 - 26, left
+  para 5: 27 - 30, left
+  para 6: 31 - 31, left
+  para 7: 32 - 35, left
+  para 8: 36 - 36, left
+  para 9: 37 - 42, left
+  para 10: 43 - 50, indent
+  para 11: 51 - 54, blockquote
+  para 12: 55 - 56, outdent
+  para 13: 57 - 72, left
+page 221:
+  para 1: 1 - 1, indent
+  para 2: 2 - 10, blockquote
+  para 3: 11 - 11, indent
+  para 4: 12 - 12, indent
+  para 5: 13 - 75, blockquote
+page 222:
+  para 1: 1 - 1, indent
+  para 2: 2 - 17, blockquote
+  para 3: 18 - 18, left
+  para 4: 19 - 25, blockquote
+  para 5: 26 - 26, left
+  para 6: 27 - 47, blockquote
+  para 7: 48 - 48, indent
+  para 8: 49 - 51, blockquote
+  para 9: 52 - 52, indent
+  para 10: 53 - 68, blockquote
+  para 11: 69 - 69, indent
+  para 12: 70 - 70, indent
+
+
+consolidated pages:
+page 2:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+  para 3: 3 - 3, center
+  para 4: 4 - 4, center
+  para 5: 5 - 5, center
+  para 6: 6 - 6, center
+  para 7: 7 - 7, center
+page 3:
+  para 1: 1 - 1, left
+  para 2: 2 - 2, left
+  para 3: 3 - 3, left
+  para 4: 4 - 4, left
+  para 5: 5 - 5, left
+  para 6: 6 - 6, left
+  para 7: 7 - 7, left
+  para 8: 8 - 8, left
+  para 9: 9 - 9, left
+  para 10: 10 - 10, left
+  para 11: 11 - 11, left
+  para 12: 12 - 12, left
+  para 13: 13 - 13, left
+  para 14: 14 - 14, left
+  para 15: 15 - 15, left
+  para 16: 16 - 16, left
+  para 17: 17 - 17, left
+  para 18: 18 - 18, left
+  para 19: 19 - 19, left
+  para 20: 20 - 20, left
+  para 21: 21 - 21, left
+  para 22: 22 - 22, left
+  para 23: 23 - 23, left
+  para 24: 24 - 24, left
+  para 25: 25 - 25, left
+  para 26: 26 - 26, left
+  para 27: 27 - 27, left
+  para 28: 28 - 28, left
+  para 29: 29 - 29, left
+  para 30: 30 - 30, left
+  para 31: 31 - 31, left
+  para 32: 32 - 32, left
+  para 33: 33 - 33, left
+page 4:
+  para 1: 1 - 1, left
+  para 2: 2 - 2, left
+  para 3: 3 - 3, left
+  para 4: 4 - 4, left
+  para 5: 5 - 5, left
+  para 6: 6 - 6, left
+  para 7: 7 - 7, left
+  para 8: 8 - 8, left
+  para 9: 9 - 9, left
+  para 10: 10 - 10, left
+  para 11: 11 - 11, left
+  para 12: 12 - 12, center
+  para 13: 13 - 13, left
+  para 14: 14 - 14, center
+page 5:
+  para 1: 1 - 1, left
+  para 2: 2 - 2, left
+  para 3: 3 - 3, left
+  para 4: 4 - 4, left
+  para 5: 5 - 5, left
+  para 6: 6 - 6, left
+  para 7: 7 - 7, left
+  para 8: 8 - 8, left
+  para 9: 9 - 9, left
+  para 10: 10 - 10, left
+  para 11: 11 - 11, left
+  para 12: 12 - 12, left
+  para 13: 13 - 13, left
+  para 14: 14 - 14, left
+  para 15: 15 - 15, left
+  para 16: 16 - 16, left
+  para 17: 17 - 17, left
+  para 18: 18 - 18, left
+page 6:
+  para 1: 1 - 1, blockquote
+  para 2: 2 - 9, indent
+  para 3: 10 - 21, indent
+  para 4: 22 - 30, indent
+page 7:
+  para 1: 4 - 12, indent
+  para 2: 13 - 24, indent
+  para 3: 25 - 34, indent
+  para 4: 35 - 43, indent
+page 8:
+  para 1: 1 - 7, indent
+  para 2: 8 - 14, indent
+  para 3: 15 - 18, indent
+  para 4: 19 - 19, left
+page 9:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+  para 3: 3 - 17, indent
+  para 4: 18 - 36, indent
+page 10:
+  para 1: 14 - 29, indent
+  para 2: 30 - 50, indent
+page 11:
+  para 1: 16 - 34, indent
+  para 2: 35 - 49, indent
+page 12:
+  para 1: 15 - 33, indent
+  para 2: 34 - 51, indent
+page 13:
+  para 1: 18 - 30, indent
+  para 2: 31 - 44, indent
+page 14:
+  para 1: 10 - 38, indent
+page 15:
+  para 1: 4 - 22, indent
+  para 2: 23 - 43, indent
+page 16:
+  para 1: 10 - 24, indent
+  para 2: 25 - 39, indent
+page 17:
+  para 1: 5 - 30, indent
+  para 2: 31 - 49, indent
+page 18:
+  para 1: 17 - 39, indent
+page 19:
+  para 1: 5 - 32, indent
+  para 2: 33 - 42, indent
+page 20:
+  para 1: 9 - 24, left
+  para 2: 25 - 43, indent
+page 21:
+  para 1: 10 - 31, indent
+  para 2: 32 - 59, indent
+page 22:
+  para 1: 26 - 47, indent
+page 23:
+  para 1: 13 - 38, left
+page 24:
+  para 1: 5 - 31, indent
+  para 2: 32 - 55, indent
+page 25:
+  para 1: 22 - 48, indent
+page 26:
+  para 1: 14 - 30, indent
+  para 2: 31 - 54, indent
+page 27:
+  para 1: 19 - 37, indent
+page 28:
+  para 1: 3 - 18, indent
+  para 2: 19 - 29, indent
+  para 3: 30 - 36, indent
+page 29:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+  para 3: 3 - 25, left
+page 30:
+  para 1: 3 - 18, indent
+  para 2: 19 - 42, indent
+page 31:
+  para 1: 9 - 31, indent
+  para 2: 32 - 39, indent
+page 32:
+  para 1: 6 - 13, blockquote
+  para 2: 14 - 55, indent
+page 33:
+  para 1: 20 - 50, indent
+page 34:
+  para 1: 16 - 39, indent
+page 35:
+  para 1: 5 - 33, indent
+  para 2: 34 - 54, indent
+page 36:
+  para 1: 21 - 41, indent
+page 37:
+  para 1: 7 - 28, indent
+  para 2: 29 - 58, indent
+page 38:
+  para 1: 24 - 47, indent
+page 39:
+  para 1: 13 - 39, indent
+page 40:
+  para 1: 5 - 28, indent
+  para 2: 29 - 54, indent
+page 41:
+  para 1: 22 - 47, indent
+page 42:
+  para 1: 14 - 35, indent
+page 43:
+  para 1: 1 - 24, indent
+  para 2: 25 - 50, indent
+page 44:
+  para 1: 15 - 48, indent
+page 45:
+  para 1: 14 - 35, indent
+page 46:
+  para 1: 1 - 23, indent
+  para 2: 24 - 49, indent
+page 47:
+  para 1: 15 - 42, indent
+page 48:
+  para 1: 8 - 23, indent
+  para 2: 24 - 54, indent
+page 49:
+  para 1: 20 - 48, indent
+page 50:
+  para 1: 14 - 42, indent
+page 51:
+page 52:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+  para 3: 3 - 19, indent
+  para 4: 20 - 20, indent
+  para 5: 21 - 24, left
+page 53:
+  para 1: 1 - 9, left
+  para 2: 10 - 22, indent
+  para 3: 23 - 37, indent
+page 54:
+  para 1: 3 - 35, indent
+page 55:
+  para 1: 1 - 29, indent
+  para 2: 30 - 56, indent
+page 56:
+  para 1: 22 - 57, indent
+page 57:
+  para 1: 24 - 50, indent
+page 58:
+  para 1: 16 - 32, indent
+  para 2: 33 - 69, indent
+page 59:
+  para 1: 35 - 55, indent
+page 60:
+  para 1: 21 - 43, indent
+page 61:
+  para 1: 10 - 33, indent
+  para 2: 34 - 49, indent
+page 62:
+  para 1: 15 - 35, indent
+page 63:
+  para 1: 1 - 30, indent
+  para 2: 31 - 45, indent
+page 64:
+  para 1: 11 - 27, indent
+  para 2: 28 - 49, indent
+page 65:
+  para 1: 16 - 47, indent
+page 66:
+  para 1: 13 - 33, indent
+  para 2: 34 - 54, indent
+page 67:
+  para 1: 21 - 36, indent
+page 68:
+  para 1: 1 - 34, left
+page 69:
+  para 1: 1 - 23, indent
+  para 2: 24 - 53, indent
+page 70:
+  para 1: 18 - 45, indent
+page 71:
+  para 1: 12 - 34, indent
+  para 2: 35 - 66, indent
+page 72:
+  para 1: 32 - 61, indent
+page 73:
+  para 1: 28 - 65, indent
+page 74:
+page 75:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+  para 3: 3 - 17, indent
+  para 4: 18 - 30, left
+page 76:
+  para 1: 7 - 36, indent
+page 77:
+  para 1: 3 - 20, indent
+  para 2: 21 - 37, indent
+page 78:
+  para 1: 3 - 26, indent
+  para 2: 27 - 50, indent
+page 79:
+  para 1: 16 - 40, indent
+page 80:
+  para 1: 7 - 36, indent
+page 81:
+  para 1: 1 - 31, indent
+  para 2: 32 - 67, indent
+page 82:
+  para 1: 33 - 67, indent
+page 83:
+  para 1: 34 - 34, indent
+  para 2: 35 - 35, indent
+page 84:
+  para 1: 1 - 21, left
+  para 2: 22 - 35, indent
+page 85:
+  para 1: 1 - 6, left
+  para 2: 7 - 38, indent
+page 86:
+  para 1: 4 - 21, indent
+  para 2: 22 - 35, indent
+page 87:
+  para 1: 3 - 20, indent
+  para 2: 21 - 37, indent
+page 88:
+  para 1: 3 - 27, indent
+  para 2: 28 - 33, indent
+  para 3: 34 - 34, blockquote
+page 89:
+  para 1: 1 - 17, left
+  para 2: 18 - 34, indent
+  para 3: 35 - 35, blockquote
+page 90:
+  para 1: 1 - 13, left
+  para 2: 14 - 39, indent
+page 91:
+  para 1: 5 - 25, indent
+  para 2: 26 - 32, indent
+  para 3: 33 - 34, left
+page 92:
+  para 1: 1 - 12, left
+  para 2: 13 - 33, indent
+  para 3: 34 - 34, left
+page 93:
+  para 1: 1 - 10, left
+  para 2: 11 - 22, indent
+  para 3: 23 - 43, indent
+page 94:
+  para 1: 9 - 37, indent
+page 95:
+  para 1: 4 - 31, indent
+  para 2: 32 - 57, indent
+page 96:
+  para 1: 23 - 43, indent
+page 97:
+  para 1: 8 - 34, indent
+  para 2: 35 - 56, indent
+page 98:
+  para 1: 22 - 35, indent
+page 99:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+  para 3: 3 - 25, indent
+page 100:
+  para 1: 3 - 17, indent
+  para 2: 18 - 25, indent
+  para 3: 26 - 34, indent
+page 101:
+  para 1: 1 - 12, indent
+  para 2: 13 - 38, indent
+page 102:
+  para 1: 4 - 23, indent
+  para 2: 24 - 45, indent
+page 103:
+  para 1: 11 - 30, indent
+  para 2: 31 - 53, indent
+page 104:
+  para 1: 19 - 44, indent
+page 105:
+  para 1: 10 - 42, indent
+page 106:
+  para 1: 8 - 37, indent
+page 107:
+  para 1: 3 - 21, indent
+  para 2: 22 - 31, indent
+  para 3: 32 - 55, indent
+page 108:
+  para 1: 21 - 44, indent
+page 109:
+  para 1: 11 - 31, indent
+  para 2: 32 - 50, indent
+page 110:
+  para 1: 17 - 38, indent
+page 111:
+  para 1: 4 - 18, indent
+  para 2: 19 - 46, indent
+page 112:
+  para 1: 12 - 35, indent
+page 113:
+  para 1: 1 - 24, indent
+  para 2: 25 - 53, indent
+page 114:
+  para 1: 19 - 37, indent
+page 115:
+  para 1: 4 - 23, indent
+  para 2: 24 - 48, indent
+page 116:
+  para 1: 15 - 40, indent
+page 117:
+  para 1: 6 - 30, indent
+  para 2: 31 - 64, indent
+page 118:
+  para 1: 31 - 33, indent
+  para 2: 34 - 34, blockquote
+page 119:
+  para 1: 1 - 23, left
+  para 2: 24 - 55, indent
+page 120:
+page 121:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+  para 3: 3 - 3, center
+  para 4: 4 - 29, indent
+page 122:
+  para 1: 5 - 27, indent
+  para 2: 28 - 47, indent
+page 123:
+  para 1: 13 - 37, indent
+page 124:
+  para 1: 3 - 20, indent
+  para 2: 21 - 38, indent
+page 125:
+  para 1: 5 - 21, indent
+  para 2: 22 - 57, indent
+page 126:
+  para 1: 24 - 47, indent
+page 127:
+  para 1: 14 - 48, indent
+page 128:
+  para 1: 14 - 42, indent
+page 129:
+  para 1: 8 - 23, indent
+  para 2: 24 - 40, indent
+page 130:
+  para 1: 7 - 28, indent
+  para 2: 29 - 51, indent
+page 131:
+  para 1: 17 - 34, indent
+  para 2: 35 - 35, indent
+page 132:
+  para 1: 1 - 18, left
+  para 2: 19 - 43, indent
+page 133:
+  para 1: 10 - 44, indent
+page 134:
+  para 1: 10 - 33, indent
+  para 2: 34 - 55, indent
+page 135:
+  para 1: 21 - 41, indent
+page 136:
+  para 1: 8 - 39, indent
+page 137:
+  para 1: 6 - 31, indent
+  para 2: 32 - 46, indent
+page 138:
+  para 1: 14 - 27, indent
+  para 2: 28 - 47, indent
+page 139:
+  para 1: 13 - 33, indent
+  para 2: 34 - 47, indent
+page 140:
+  para 1: 13 - 26, indent
+  para 2: 27 - 31, indent
+  para 3: 32 - 32, left
+page 141:
+  para 1: 1 - 9, left
+  para 2: 10 - 28, indent
+page 142:
+  para 1: 1 - 1, center
+  para 2: 2 - 3, center
+  para 3: 4 - 22, indent
+  para 4: 23 - 34, indent
+page 143:
+  para 1: 11 - 28, indent
+  para 2: 29 - 49, indent
+page 144:
+  para 1: 15 - 40, indent
+page 145:
+  para 1: 6 - 23, indent
+  para 2: 24 - 42, indent
+page 146:
+  para 1: 9 - 29, indent
+  para 2: 30 - 42, indent
+page 147:
+  para 1: 10 - 26, indent
+  para 2: 27 - 53, indent
+page 148:
+  para 1: 19 - 33, indent
+  para 2: 34 - 54, indent
+page 149:
+  para 1: 21 - 48, indent
+page 150:
+  para 1: 15 - 35, indent
+page 151:
+  para 1: 1 - 25, indent
+  para 2: 26 - 45, indent
+page 152:
+  para 1: 10 - 27, indent
+  para 2: 28 - 49, indent
+page 153:
+  para 1: 15 - 23, indent
+  para 2: 24 - 46, indent
+page 154:
+  para 1: 12 - 29, indent
+  para 2: 30 - 35, indent
+page 155:
+  para 1: 1 - 7, left
+  para 2: 8 - 21, indent
+  para 3: 22 - 44, indent
+page 156:
+  para 1: 10 - 31, indent
+  para 2: 32 - 67, indent
+page 157:
+  para 1: 35 - 35, indent
+page 158:
+  para 1: 1 - 7, left
+  para 2: 8 - 27, indent
+  para 3: 28 - 49, indent
+page 159:
+  para 1: 16 - 39, indent
+page 160:
+  para 1: 6 - 28, indent
+  para 2: 29 - 34, indent
+page 161:
+  para 1: 1 - 19, indent
+  para 2: 20 - 45, indent
+page 162:
+  para 1: 11 - 38, indent
+page 163:
+  para 1: 4 - 34, indent
+  para 2: 35 - 51, indent
+page 164:
+  para 1: 16 - 35, indent
+page 165:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+  para 3: 3 - 44, indent
+page 166:
+  para 1: 22 - 45, indent
+page 167:
+  para 1: 11 - 41, indent
+page 168:
+  para 1: 7 - 24, indent
+  para 2: 25 - 35, indent
+page 169:
+  para 1: 1 - 12, left
+  para 2: 13 - 34, indent
+  para 3: 35 - 59, indent
+page 170:
+  para 1: 25 - 45, indent
+page 171:
+  para 1: 12 - 30, indent
+  para 2: 31 - 55, indent
+page 172:
+  para 1: 22 - 39, indent
+page 173:
+  para 1: 5 - 30, indent
+  para 2: 31 - 35, indent
+page 174:
+  para 1: 1 - 18, left
+  para 2: 19 - 37, indent
+  para 3: 38 - 43, indent
+page 175:
+  para 1: 6 - 28, indent
+  para 2: 29 - 36, indent
+page 176:
+  para 1: 1 - 17, left
+  para 2: 18 - 35, indent
+  para 3: 36 - 58, indent
+page 177:
+  para 1: 23 - 46, indent
+page 178:
+  para 1: 12 - 33, indent
+  para 2: 34 - 51, indent
+page 179:
+  para 1: 15 - 32, indent
+  para 2: 33 - 35, indent
+page 180:
+  para 1: 1 - 8, left
+  para 2: 9 - 43, indent
+page 181:
+  para 1: 8 - 34, indent
+page 182:
+  para 1: 1 - 31, indent
+  para 2: 32 - 62, indent
+page 183:
+  para 1: 29 - 51, indent
+page 184:
+  para 1: 17 - 48, indent
+page 185:
+  para 1: 14 - 34, indent
+page 186:
+  para 1: 1 - 6, indent
+  para 2: 7 - 36, indent
+page 187:
+  para 1: 1 - 28, indent
+page 188:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+  para 3: 3 - 3, center
+  para 4: 4 - 23, indent
+  para 5: 24 - 48, indent
+page 189:
+  para 1: 25 - 42, indent
+page 190:
+  para 1: 9 - 31, indent
+  para 2: 32 - 56, indent
+page 191:
+  para 1: 22 - 52, indent
+page 192:
+  para 1: 19 - 41, indent
+page 193:
+  para 1: 7 - 31, indent
+  para 2: 32 - 57, indent
+page 194:
+  para 1: 23 - 32, indent
+  para 2: 33 - 33, blockquote
+page 195:
+  para 1: 1 - 14, left
+  para 2: 15 - 33, indent
+  para 3: 34 - 55, indent
+page 196:
+  para 1: 22 - 49, indent
+page 197:
+  para 1: 15 - 33, indent
+  para 2: 34 - 57, indent
+page 198:
+  para 1: 24 - 46, indent
+page 199:
+  para 1: 12 - 36, indent
+page 200:
+  para 1: 3 - 25, indent
+  para 2: 26 - 50, indent
+page 201:
+  para 1: 17 - 41, indent
+page 202:
+  para 1: 7 - 35, indent
+page 203:
+  para 1: 1 - 21, indent
+  para 2: 22 - 33, indent
+  para 3: 34 - 52, indent
+page 204:
+  para 1: 18 - 42, indent
+page 205:
+  para 1: 8 - 33, indent
+page 206:
+  para 1: 1 - 29, indent
+  para 2: 30 - 54, indent
+page 207:
+  para 1: 21 - 55, indent
+page 208:
+  para 1: 21 - 47, indent
+page 209:
+  para 1: 13 - 43, indent
+page 210:
+  para 1: 9 - 38, indent
+page 211:
+  para 1: 4 - 22, indent
+page 212:
+  para 1: 1 - 1, center
+  para 2: 2 - 6, indent
+  para 3: 7 - 30, indent
+page 213:
+  para 1: 8 - 27, indent
+  para 2: 28 - 38, indent
+page 214:
+  para 1: 2 - 16, indent
+  para 2: 17 - 24, indent
+  para 3: 25 - 36, indent
+page 215:
+  para 1: 1 - 2, indent
+  para 2: 3 - 17, indent
+page 216:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, indent
+  para 3: 3 - 3, left
+  para 4: 4 - 4, left
+  para 5: 5 - 5, left
+  para 6: 6 - 6, indent
+  para 7: 7 - 7, left
+  para 8: 8 - 8, left
+  para 9: 9 - 9, left
+  para 10: 10 - 10, left
+  para 11: 11 - 11, indent
+  para 12: 12 - 12, left
+  para 13: 13 - 13, left
+  para 14: 14 - 14, left
+  para 15: 15 - 15, left
+  para 16: 16 - 16, left
+  para 17: 17 - 17, left
+  para 18: 18 - 18, indent
+  para 19: 19 - 19, left
+  para 20: 20 - 20, left
+  para 21: 21 - 21, left
+  para 22: 22 - 22, left
+  para 23: 23 - 23, left
+  para 24: 24 - 24, left
+  para 25: 25 - 25, left
+  para 26: 26 - 26, left
+  para 27: 27 - 27, indent
+  para 28: 28 - 28, left
+  para 29: 29 - 29, left
+  para 30: 30 - 30, left
+  para 31: 31 - 31, left
+  para 32: 32 - 32, left
+  para 33: 33 - 33, left
+  para 34: 34 - 34, left
+  para 35: 35 - 35, indent
+  para 36: 36 - 36, left
+  para 37: 37 - 37, left
+  para 38: 38 - 38, left
+page 217:
+  para 1: 1 - 1, left
+  para 2: 2 - 2, left
+  para 3: 3 - 3, left
+  para 4: 4 - 4, left
+  para 5: 5 - 5, left
+  para 6: 6 - 6, left
+  para 7: 7 - 7, left
+  para 8: 8 - 8, left
+  para 9: 9 - 9, left
+  para 10: 10 - 10, left
+  para 11: 11 - 11, left
+  para 12: 12 - 12, left
+  para 13: 13 - 13, left
+  para 14: 14 - 14, left
+  para 15: 15 - 15, left
+  para 16: 16 - 16, left
+  para 17: 17 - 17, left
+  para 18: 18 - 18, left
+  para 19: 19 - 19, left
+  para 20: 20 - 20, left
+  para 21: 21 - 21, left
+  para 22: 22 - 22, left
+  para 23: 23 - 23, left
+  para 24: 24 - 24, left
+  para 25: 25 - 25, left
+  para 26: 26 - 26, left
+  para 27: 27 - 27, left
+  para 28: 28 - 28, left
+  para 29: 29 - 29, left
+  para 30: 30 - 30, left
+  para 31: 31 - 31, left
+  para 32: 32 - 32, left
+  para 33: 33 - 33, left
+  para 34: 34 - 34, left
+  para 35: 35 - 35, left
+  para 36: 36 - 36, left
+  para 37: 37 - 37, left
+  para 38: 38 - 38, left
+  para 39: 39 - 39, left
+  para 40: 40 - 40, left
+  para 41: 41 - 41, left
+  para 42: 42 - 42, left
+  para 43: 43 - 43, left
+  para 44: 44 - 44, left
+  para 45: 45 - 45, left
+  para 46: 46 - 46, left
+  para 47: 47 - 47, left
+  para 48: 48 - 48, left
+  para 49: 49 - 49, left
+  para 50: 50 - 50, left
+  para 51: 51 - 51, left
+  para 52: 52 - 52, left
+  para 53: 53 - 53, left
+  para 54: 54 - 54, left
+  para 55: 55 - 55, left
+  para 56: 56 - 56, left
+  para 57: 57 - 57, left
+  para 58: 58 - 58, left
+  para 59: 59 - 59, left
+  para 60: 60 - 60, left
+  para 61: 61 - 61, left
+  para 62: 62 - 62, left
+  para 63: 63 - 63, left
+  para 64: 64 - 64, left
+  para 65: 65 - 65, left
+page 218:
+  para 1: 1 - 1, left
+  para 2: 2 - 2, left
+  para 3: 3 - 3, left
+  para 4: 4 - 4, left
+  para 5: 5 - 5, left
+  para 6: 6 - 6, left
+  para 7: 7 - 7, left
+  para 8: 8 - 8, left
+  para 9: 9 - 9, left
+  para 10: 10 - 10, left
+  para 11: 11 - 11, left
+  para 12: 12 - 12, left
+  para 13: 13 - 13, left
+  para 14: 14 - 14, left
+  para 15: 15 - 15, left
+  para 16: 16 - 16, left
+  para 17: 17 - 17, left
+  para 18: 18 - 18, left
+  para 19: 19 - 19, left
+  para 20: 20 - 20, left
+  para 21: 21 - 21, left
+  para 22: 22 - 22, left
+  para 23: 23 - 23, left
+  para 24: 24 - 24, left
+  para 25: 25 - 25, left
+  para 26: 26 - 26, left
+  para 27: 27 - 27, left
+  para 28: 28 - 28, left
+  para 29: 29 - 29, left
+  para 30: 30 - 30, left
+  para 31: 31 - 31, left
+  para 32: 32 - 32, left
+  para 33: 33 - 33, left
+  para 34: 34 - 34, left
+  para 35: 35 - 35, left
+  para 36: 36 - 36, left
+  para 37: 37 - 37, left
+  para 38: 38 - 38, left
+  para 39: 39 - 39, left
+  para 40: 40 - 40, left
+  para 41: 41 - 41, left
+  para 42: 42 - 42, left
+  para 43: 43 - 43, left
+  para 44: 44 - 44, left
+  para 45: 45 - 45, left
+  para 46: 46 - 46, left
+  para 47: 47 - 47, left
+  para 48: 48 - 48, left
+  para 49: 49 - 49, left
+  para 50: 50 - 50, left
+  para 51: 51 - 51, left
+  para 52: 52 - 52, left
+  para 53: 53 - 53, left
+  para 54: 54 - 54, left
+  para 55: 55 - 55, left
+  para 56: 56 - 56, left
+  para 57: 57 - 57, left
+  para 58: 58 - 58, left
+  para 59: 59 - 59, left
+  para 60: 60 - 60, left
+  para 61: 61 - 61, left
+  para 62: 62 - 62, left
+  para 63: 63 - 63, left
+  para 64: 64 - 64, left
+  para 65: 65 - 65, left
+  para 66: 66 - 66, left
+page 219:
+  para 1: 1 - 1, left
+  para 2: 2 - 2, left
+  para 3: 3 - 3, left
+  para 4: 4 - 4, left
+  para 5: 5 - 5, left
+  para 6: 6 - 6, left
+  para 7: 7 - 7, left
+  para 8: 8 - 8, left
+  para 9: 9 - 9, left
+  para 10: 10 - 10, left
+  para 11: 11 - 11, left
+  para 12: 12 - 12, left
+  para 13: 13 - 13, left
+  para 14: 14 - 14, left
+  para 15: 15 - 15, left
+  para 16: 16 - 16, left
+  para 17: 17 - 17, left
+  para 18: 18 - 18, left
+  para 19: 19 - 19, left
+  para 20: 20 - 20, left
+  para 21: 21 - 21, left
+  para 22: 22 - 22, left
+  para 23: 23 - 23, left
+  para 24: 24 - 24, left
+  para 25: 25 - 25, left
+  para 26: 26 - 26, left
+  para 27: 27 - 27, left
+  para 28: 28 - 28, left
+  para 29: 29 - 29, left
+  para 30: 30 - 30, left
+  para 31: 31 - 31, left
+  para 32: 32 - 32, left
+  para 33: 33 - 33, left
+  para 34: 34 - 34, left
+  para 35: 35 - 35, left
+  para 36: 36 - 36, left
+  para 37: 37 - 37, left
+  para 38: 38 - 38, left
+  para 39: 39 - 39, left
+  para 40: 40 - 40, left
+  para 41: 41 - 41, left
+  para 42: 42 - 42, left
+  para 43: 43 - 43, left
+  para 44: 44 - 44, left
+  para 45: 45 - 45, left
+  para 46: 46 - 46, left
+  para 47: 47 - 47, left
+  para 48: 48 - 48, left
+  para 49: 49 - 49, left
+  para 50: 50 - 50, left
+  para 51: 51 - 51, left
+  para 52: 52 - 52, left
+  para 53: 53 - 53, left
+  para 54: 54 - 54, left
+  para 55: 55 - 55, left
+  para 56: 56 - 56, left
+  para 57: 57 - 57, left
+  para 58: 58 - 58, left
+  para 59: 59 - 59, left
+  para 60: 60 - 60, left
+  para 61: 61 - 61, left
+  para 62: 62 - 62, left
+  para 63: 63 - 63, left
+  para 64: 64 - 64, left
+  para 65: 65 - 65, left
+  para 66: 66 - 66, left
+  para 67: 67 - 67, left
+  para 68: 68 - 68, left
+  para 69: 69 - 69, left
+  para 70: 70 - 70, left
+  para 71: 71 - 71, left
+  para 72: 72 - 72, left
+page 220:
+  para 1: 1 - 1, left
+  para 2: 2 - 2, left
+  para 3: 3 - 3, left
+  para 4: 4 - 4, left
+  para 5: 5 - 5, left
+  para 6: 6 - 6, left
+  para 7: 7 - 7, left
+  para 8: 8 - 8, left
+  para 9: 9 - 9, left
+  para 10: 10 - 10, left
+  para 11: 11 - 11, left
+  para 12: 12 - 12, left
+  para 13: 13 - 13, left
+  para 14: 14 - 14, left
+  para 15: 15 - 15, left
+  para 16: 16 - 16, left
+  para 17: 17 - 17, left
+  para 18: 18 - 18, left
+  para 19: 19 - 19, left
+  para 20: 20 - 20, left
+  para 21: 21 - 21, left
+  para 22: 22 - 22, left
+  para 23: 23 - 23, left
+  para 24: 24 - 24, left
+  para 25: 25 - 25, left
+  para 26: 26 - 26, left
+  para 27: 27 - 27, left
+  para 28: 28 - 28, left
+  para 29: 29 - 29, left
+  para 30: 30 - 30, left
+  para 31: 31 - 31, left
+  para 32: 32 - 32, left
+  para 33: 33 - 33, left
+  para 34: 34 - 34, left
+  para 35: 35 - 35, left
+  para 36: 36 - 36, left
+  para 37: 37 - 37, left
+  para 38: 38 - 38, left
+  para 39: 39 - 39, left
+  para 40: 40 - 40, left
+  para 41: 41 - 41, left
+  para 42: 42 - 42, left
+  para 43: 43 - 43, left
+  para 44: 44 - 44, left
+  para 45: 45 - 45, left
+  para 46: 46 - 46, left
+  para 47: 47 - 47, left
+  para 48: 48 - 48, left
+  para 49: 49 - 49, left
+  para 50: 50 - 50, left
+  para 51: 51 - 51, left
+  para 52: 52 - 52, left
+  para 53: 53 - 53, left
+  para 54: 54 - 54, left
+  para 55: 55 - 55, left
+  para 56: 56 - 56, left
+  para 57: 57 - 57, left
+  para 58: 58 - 58, left
+  para 59: 59 - 59, left
+  para 60: 60 - 60, left
+  para 61: 61 - 61, left
+  para 62: 62 - 62, left
+  para 63: 63 - 63, left
+  para 64: 64 - 64, left
+  para 65: 65 - 65, left
+  para 66: 66 - 66, left
+  para 67: 67 - 67, left
+  para 68: 68 - 68, left
+  para 69: 69 - 69, left
+  para 70: 70 - 70, left
+  para 71: 71 - 71, left
+  para 72: 72 - 72, left
+page 221:
+  para 1: 1 - 1, left
+  para 2: 2 - 2, left
+  para 3: 3 - 3, left
+  para 4: 4 - 4, left
+  para 5: 5 - 5, left
+  para 6: 6 - 6, left
+  para 7: 7 - 7, left
+  para 8: 8 - 8, left
+  para 9: 9 - 9, left
+  para 10: 10 - 10, left
+  para 11: 11 - 11, left
+  para 12: 12 - 12, left
+  para 13: 13 - 13, left
+  para 14: 14 - 14, left
+  para 15: 15 - 15, left
+  para 16: 16 - 16, left
+  para 17: 17 - 17, left
+  para 18: 18 - 18, left
+  para 19: 19 - 19, left
+  para 20: 20 - 20, left
+  para 21: 21 - 21, left
+  para 22: 22 - 22, left
+  para 23: 23 - 23, left
+  para 24: 24 - 24, left
+  para 25: 25 - 25, left
+  para 26: 26 - 26, left
+  para 27: 27 - 27, left
+  para 28: 28 - 28, left
+  para 29: 29 - 29, left
+  para 30: 30 - 30, left
+  para 31: 31 - 31, left
+  para 32: 32 - 32, left
+  para 33: 33 - 33, left
+  para 34: 34 - 34, left
+  para 35: 35 - 35, left
+  para 36: 36 - 36, left
+  para 37: 37 - 37, left
+  para 38: 38 - 38, left
+  para 39: 39 - 39, left
+  para 40: 40 - 40, left
+  para 41: 41 - 41, left
+  para 42: 42 - 42, left
+  para 43: 43 - 43, left
+  para 44: 44 - 44, left
+  para 45: 45 - 45, left
+  para 46: 46 - 46, left
+  para 47: 47 - 47, left
+  para 48: 48 - 48, left
+  para 49: 49 - 49, left
+  para 50: 50 - 50, left
+  para 51: 51 - 51, left
+  para 52: 52 - 52, left
+  para 53: 53 - 53, left
+  para 54: 54 - 54, left
+  para 55: 55 - 55, left
+  para 56: 56 - 56, left
+  para 57: 57 - 57, left
+  para 58: 58 - 58, left
+  para 59: 59 - 59, left
+  para 60: 60 - 60, left
+  para 61: 61 - 61, left
+  para 62: 62 - 62, left
+  para 63: 63 - 63, left
+  para 64: 64 - 64, left
+  para 65: 65 - 65, left
+  para 66: 66 - 66, left
+  para 67: 67 - 67, left
+  para 68: 68 - 68, left
+  para 69: 69 - 69, left
+  para 70: 70 - 70, left
+  para 71: 71 - 71, left
+  para 72: 72 - 72, left
+  para 73: 73 - 73, left
+  para 74: 74 - 74, left
+  para 75: 75 - 75, left
+page 222:
+  para 1: 1 - 1, left
+  para 2: 2 - 2, left
+  para 3: 3 - 3, left
+  para 4: 4 - 4, left
+  para 5: 5 - 5, left
+  para 6: 6 - 6, left
+  para 7: 7 - 7, left
+  para 8: 8 - 8, left
+  para 9: 9 - 9, left
+  para 10: 10 - 10, left
+  para 11: 11 - 11, left
+  para 12: 12 - 12, left
+  para 13: 13 - 13, left
+  para 14: 14 - 14, left
+  para 15: 15 - 15, left
+  para 16: 16 - 16, left
+  para 17: 17 - 17, left
+  para 18: 18 - 18, left
+  para 19: 19 - 19, left
+  para 20: 20 - 20, left
+  para 21: 21 - 21, left
+  para 22: 22 - 22, left
+  para 23: 23 - 23, left
+  para 24: 24 - 24, left
+  para 25: 25 - 25, left
+  para 26: 26 - 26, left
+  para 27: 27 - 27, left
+  para 28: 28 - 28, left
+  para 29: 29 - 29, left
+  para 30: 30 - 30, left
+  para 31: 31 - 31, left
+  para 32: 32 - 32, left
+  para 33: 33 - 33, left
+  para 34: 34 - 34, left
+  para 35: 35 - 35, left
+  para 36: 36 - 36, left
+  para 37: 37 - 37, left
+  para 38: 38 - 38, left
+  para 39: 39 - 39, left
+  para 40: 40 - 40, left
+  para 41: 41 - 41, left
+  para 42: 42 - 42, left
+  para 43: 43 - 43, left
+  para 44: 44 - 44, left
+  para 45: 45 - 45, left
+  para 46: 46 - 46, left
+  para 47: 47 - 47, left
+  para 48: 48 - 48, left
+  para 49: 49 - 49, left
+  para 50: 50 - 50, left
+  para 51: 51 - 51, left
+  para 52: 52 - 52, left
+  para 53: 53 - 53, left
+  para 54: 54 - 54, left
+  para 55: 55 - 55, left
+  para 56: 56 - 56, left
+  para 57: 57 - 57, left
+  para 58: 58 - 58, left
+  para 59: 59 - 59, left
+  para 60: 60 - 60, left
+  para 61: 61 - 61, left
+  para 62: 62 - 62, left
+  para 63: 63 - 63, left
+  para 64: 64 - 64, left
+  para 65: 65 - 65, left
+  para 66: 66 - 66, left
+  para 67: 67 - 67, left
+  para 68: 68 - 68, left
+  para 69: 69 - 69, left
+  para 70: 70 - 70, left

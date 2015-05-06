@@ -1,0 +1,34 @@
+Invalid font id 1 at line 21.
+Encoding: UTF-8
+4 pages parsed, 4 pages processed.
+page 1:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+page 2:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+page 3:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+  para 3: 3 - 23, indent
+  para 4: 24 - 27, indent
+page 4:
+  para 1: 1 - 6, left
+  para 2: 7 - 29, outdent
+  para 3: 30 - 31, indent
+
+
+consolidated pages:
+page 1:
+  para 1: 1 - 1, center
+  para 2: 2 - 3, center
+page 2:
+  para 1: 2 - 2, center
+page 3:
+  para 1: 1 - 1, center
+  para 2: 2 - 2, center
+  para 3: 3 - 23, indent
+  para 4: 24 - 33, indent
+page 4:
+  para 1: 7 - 29, outdent
+  para 2: 30 - 31, indent

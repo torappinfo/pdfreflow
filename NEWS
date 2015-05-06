@@ -1,0 +1,38 @@
+Whats new in 0.8.6
+    * added --shortlines=PERCENT option, to help with documents that don't use 
+      indented paragraphs and don't have vertical spacing after paragraphs.
+      The argument is a value between 1 and 100. If 0 is specified, the
+      the default value is used (80%). If a paragraph has a line that is 
+      less than the specified percentage of the longest line, it will be
+      considered the end of a paragraph. This option is only necessary for
+      poorly formatted fiction books, or perhaps for ebooks that are
+      oriented for very tiny screens, that don't want to waste any vertical
+      spacing or lose the space from the paragraph indent.
+    * added --nonfiction option, to specify that short lines don't necessarily
+      mean end of paragraph. This is non necessary for typical fiction 
+      books that use either indented paragraphs or have vertical spacing after
+      a paragraph. It is necessary for books that use block quoting that
+      has an inset margin that is the same as the paragraph indent.
+    * added --print option, to print out the contents of a single with, 
+      with line numbers, to standard error. This is useful for determining
+      the line number argument for the --center option
+      
+Whats new in 0.8.5
+    * added a way to specify where the center X position to use for centered 
+      paragraphs with the --center=line_spec option. See pdfreflow.html for 
+      more info.
+    * font sizes in HTML are now relative sizes using percentages. Its 
+      possible to specify the previous behavior with absolute font sizes
+      using the --absolute flag. See pdfreflow.html for more info.
+    * the output HTML and imbedded CSS styles are simpler because of using
+      the HTML default font
+
+Whats new in 0.8.4
+    * now building for Ubuntu 8.04 Hardy Heron and Mac OSX 10.5 Leopard (and 
+      later)
+    * documents using double spaced lines are supported
+    * don't print all debug options in --help, but added --showdebug option 
+      instead
+    * documents with only large fonts would not reflow correctly
+    * added --lineheight debugging option to print line height frequency
+

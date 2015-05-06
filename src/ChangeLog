@@ -1,0 +1,138 @@
+0.8.6
+2010-05-23 Pranananda Deva blissenergy@gmail.com
+
+* page.c
+new statics - page_nonfiction, page_shortlines
+(page_setnonfiction), (page_setshortlines) new functions
+(getleadings) has more info in its context, deals with bias
+(page_getleadings) deals with bias
+(checkparastyle) removed some unnecessary code
+(haveshortlines) checks if current line ends in punctuation, next line start with cap 
+(atparaend) bug fixes, implements --shortlines option, --nonfiction option
+(atpageend) removed unused code
+(calcshortlines) new function
+(findpara),(page_processpara),  deals shortlines
+(printline),(page_printcontents) for --print option
+
+* pdfreflow.c
+new statics - printpage, nonfiction, shortlines
+longopts[] updated for new options
+(debugusage) change output string
+(usage) updated usage message
+(readargs) update for new command line options
+(printfreq), (getleading), (analyzeleading) added a bias arg, to deal with negative values
+(enumpages) added bias, changed behavior when printing
+(analyzelineheight), (analyzeleft), (analyzeright), (analyzefontsize), (printx) change because args to (printfreq) && (enumpages) changed
+(printpagecontent) prints contents of page to stderr
+(main) handles new command line args
+
+
+* text.c
+(text_approx_match) new function
+(text_intersects) more generous with baseline comparison, that is allow some variation
+(initquotes) new function to init string constant lengths
+(text_startswithquote) new function
+(text_startswithcap) check for utf-8 quotes & HTML entities &rdquo;, &quot;, etc
+(text_endsinpunc) adds end quote checking
+(text_printcontents) debugging functiont to print contents to stderr
+
+0.8.5
+2010-05-21 Pranananda Deva blissenergy@gmail.com
+
+* font.c
+(font_fromprintstr) new function, returns an font id from a debug printstr
+
+* html.c
+struct Style changed, new relsize, which is a percentage
+struct FontDesc changed, new relsize, which is a percentage
+added html_absfontsize, html_defaultfont
+(html_setabsolute) new function to use absolute font sizes, relative are the default.
+(style_init) takes a struct FontDesc *, instead of font id struct Atom *
+(html_getstyle) takes a struct FontDesc *, instead of struct Text *.
+(html_getfont) removed an unnecessary argument
+(html_setdefaultfont) new function, sets the default font for the document
+(fontforpara) new funciton, finds the default font for a paragraph.
+(html_notestyle) uses (fontforpara) for style font
+(html_printtext) now emits <br> for styles align_center && align_unknown
+(html_printtexts) takes struct Line * arg, uses (fontforpara) to get font for style
+(html_printstyle) handles both absolute and relative font sizing (ie px versus %)
+(html_printfontdesc) handles both absolute and relative font sizing (ie px versus %)
+(printbodystyle) prints a css entry for the <body> tag if using absolute font sizing
+(realcalcrelsize), (calcrelsize) calculates font size percentage
+(html_printstyles) handle absolute vs relative font sizing
+
+
+* linetable.c new file
+(linetable_enumlines) essentially enumlines from pages.c
+(linetable_enum_linetable) a new version of linetable_enumlines whose callback proc takes richer arguments, and its possible to query the linetable to find out the rects of each line, the starting Text object in the line, and the index into the texts array (struct Line *).
+
+* page.c
+new statics page_center
+new DEFINE CDELTA
+(enumlines) moved to linetable.c (linetable_enumlines)
+(findcenter) callback from (page_enumlines), to discover the center of a document
+(page_enumlines) calls new (linetable_enumlines)
+(page_setcenter) finds the center page_center
+(getleadings) the args changed to reflect the richer (linetable_enumlines), also no longer uses text_leading, but uses the rects now passed in as arguments
+(page_getleadings) calls new (linetable_enumlines)
+para_info struct changed to reflect callback args from (linetable_enumlines)
+(normalheight) now uses a percentage rather than fixed delta
+(page_setindent) records the text indent value - page_indentleft
+(iscentered) new function to calc if line is centered
+(strictcenter) new function to calc if line is centered, with additional constraints
+(realcheckparastyle) lots of changes, mostly having to do with how the arguments of the callback proc have changed. Using (iscentered) and (strictcenter) to calculate centering
+(checkoneliner) args changed because of new args from (linetable_enumlines)
+    uses (strictcenter) to calculate center
+(atparaend), (printparatexts), (setstartpara), (findpara) args changed because of new args from (linetable_enumlines). 
+(atpageend) args changed because of new args from (linetable_enumlines). uses (strictcentered) && (iscentered)
+(checkcenter) checks a long center paragraph to make sure its not a blockquote 
+(page_processpara), (page_multipleparas) use new (linetable_enum_linetable)
+(simplecheck) new function for finding styles for unflowed pages.
+(page_textbounds) caches result and uses on 2nd call. Also checks for pageleft
+
+* pdfreflow.c
+new statics absolute, center_page, center_line, more entries to longopts.
+(usage) added --center command line arg to specify a centered line, --absolute to specify using absolute font sizes
+(readargs) added case for center option
+(printfreq) saves the highest frequency values for later inspection.
+(checkindent) new function to discover the first indent X position -- mostly heuristics
+(findcenter) new function to take the --center args, find the corrent page and search for a line
+(printpara) discovers and uses the center point of the document from the --center option
+    tries to find the first indent X position
+    finds the most frequent font to reduce font specification in HTML output
+(main) checks for --absolute option
+
+
+0.8.4
+2010-05-13 Pranananda Deva blissenergy@gmail.com
+
+* page.c 
+(findpara) changed calculation of have_end_spacing to account for double spaced document
+(debugusage) calls exit, changed print string
+(usage) added --showdebug print string, no longer calls debugusage, takes exit argument
+(readargs) calls (readargs) with argument 1, implement --help && --showdebug
+
+2010-05-12 Pranananda Deva blissenergy@gmail.com
+
+* page.c
+ set page_lineheight at startup time to be the most frequent lineheight
+ in the PDF document. 
+(getleadings) no longer tries to merge adjacent leadings into 1 value.
+(getlineheight) New function.
+(page_getlineheight) New function.
+(normalheight) New function.
+(realcheckparastyle) changed to use (normalheight).
+
+* pdfreflow.c
+(debugusage) added --lineheight print string.
+(printfreq) prints all frequency values, instead of 10 max.
+(getlineheight) New function.
+(analyzelineheight) New function.
+(printpara) now calls page_setlineheight.
+(main) implement --lineheight debugging option.
+
+0.8.3
+2010-05-09 Pranananda Deva blissenergy@gmail.com
+
+First released version of pdfreflow
+

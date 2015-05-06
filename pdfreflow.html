@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>pdfreflow</title>
+  <meta name=Author content="Pranananda">
+  <style type="text/css">
+    p {
+	margin-left: 30px;
+	margin-right: 12px;
+    }
+    pre.code {
+	margin-left: 30px;
+	margin-right: 12px;
+	background: #99CCFF;
+	border-style: dotted;
+	border-width: thin;
+    }
+    pre.tablecode {
+	background: #99CCFF;
+	border-style: dotted;
+	border-width: thin;
+    }
+    table {
+	margin-left: 30px;
+	margin-right: 12px;
+    }
+    tr {
+	vertical-align:top;
+    }
+    span.code {
+	font-family:monospace;
+    }
+  </style>
+</head>
+<body>
+<h2>Synopsis</h2>
+    <p><b>pdfreflow</b> [options] [filename]</p>
+<h2>Description</h2>
+    <p><b>Pdfreflow</b>, in conjunction with <b>pdftohtml</b>, will convert a PDF into a reflowed HTML file. <b>Pdfreflow</b> operates on the XML output from <b>pdftohtml</b> (from the <a href="http://poppler.freedesktop.org/">Poppler</a> utilities), converting it into an HTML file. To get the XML input for <b>pdfreflow</b>, use <b>pdftohtml</b> as follows:
+    </p>
+    <pre class="code">pdftohtml -xml mybook.pdf</pre>
+    <p>The output of <b>pdftohtml</b> is in the file <span class="code">mybook.xml</span>.</p> 
+    <h4>General Usage</h4>
+    <p><b>Pdfreflow</b> is oriented for operating on ebook PDFs, text based only, with minimal formatting, the kind of formatting you would get reading a fiction novel. By default <b>pdfreflow</b> expects justified text, but you can specify the input is rag right with the following option:</p>
+    <pre class="code">pdfreflow --ragright mybook.xml</pre>
+    <p>The output of <b>pdfreflow</b> is in the file <span class="code">mybook.html</span>.</p>
+    <p>You might not want to reflow every page in your ebook. To specify which pages are NOT to be reflowed, use the following option:</>
+    <pre class="code">pdfreflow --dontreflow="1-6,10,198-201" mybook.xml</pre>
+    <p>The dontreflow option takes a comma separated list of page ranges. The first page in a book is page 1. Also, the page number is not the printed page number, but the page number that shows in the thumbnail view of PDF viewers like Acrobat, Preview, Evince, etc.</p>
+    <h4>Cropping</h4>
+    <p>While <b>pdfreflow</b> does its best to remove page numbers, headers and footers, you may have to assist by specifying the cropping options, &#8209;&#8209;top=TOP_Y and &#8209;&#8209;bottom=BOTTOM_Y. To find the Y values of a header or footer, you need to look inside the .xml file and find line of text that contains the header or footer. A sample entry looks as follows:</p>
+    <pre class="code">&lt;text top="36" left="203" width="209" height="11" font="0"&gt;Self Knowledge&lt;/text&gt;
+ &#8942;
+&lt;text top="506" left="506" width="209" height="11" font="0"&gt;Self Realization&lt;/text&gt;
+
+pdfreflow --top=36 --bottom=506 mybook.xml</pre>
+    <p>In this example, every text line that has a "top" value less than or equal to 36 will be cropped, and every text line that has a "top" value that is greater than or equal to 506 will be cropped.</p>
+    <h4>Centered Text</h4>
+    <p><b>Pdfreflow</b> does its best to detect centered text. Sometimes, especially with rag right text, it is hard to detect the center point. To improve the center detection, you can specify a line in your document that is centered by specifying the page number and line number of a centered line. For example, if the 2nd line on page 3 is a centered line, you specify this with <i>page:line</i> argument to the &#8209;&#8209;center option as follows (page numbers and line numbers both start at 1).</p>
+    <pre class="code">pdfreflow --center=3:2 mybook.xml</pre>
+    <p>To discover the line number to specify for the &#8209;&#8209;center option, you can used the &#8209;&#8209;print options to print out the contents of a page with linenumbers to the output.</p>
+    <pre class="code">pdfreflow --print=3 mybook.xml</pre>
+    <a name="reflowspecified"><h4>Reflow Specified Pages</h4></a>
+    <p>It is also possible to only reflow a subset of the ebook by specifying the &#8209;&#8209;first=FIRSTPAGE and &#8209;&#8209;last=LASTPAGE options. This is useful if a book has sections with vastly different formatting. Create a different HTML file for each differently formatted section, and either concatenate the files together, or if you are creating an e-book, this step is not necessary as it is possible to specify multiple HTML files  as input to ebook creation software.</p>
+    <pre class="code">pdfreflow --first=1 --last=100 mybook.xml
+cp mybook.html section1.html
+pdfreflow --first=101 --last=200 mybook.xml
+cp mybook.html section2.html</pre>
+    <h4>Files</h4>
+    <p>If the <span class="code">filename</span> command line argument is specified, file suffix is replace with .html and the ouput is written to that file, i.e. an input file of mybook.xml has an output file mybook.html. 
+
+If no input file is specified, standard in used as the input, and standard out is
+the output.</p>
+    <pre class="code">pdfreflow < mybook.xml > out.html</pre>
+<h2>Options</h2>
+	<table>
+	<tr><td>&#8209;&#8209;absolute</td><td>font sizes are the same as the original document (not the default) the default is to remap fonts to a relative size</td></tr>
+	<tr><td>&#8209;&#8209;bottom=MAX</td><td>crop text whose top is greater than or equal to MAX</td></tr>
+	<tr><td>&#8209;&#8209;center=SPEC</td><td>specifies which line is centered. SPEC is page:line, ie 2:1 means line 1 on page 2 is a centered line</td></tr>
+	<tr><td>&#8209;&#8209;dontreflow=LIST</td><td>don't reflow comma separated page ranges, ie 1,2,4-9,100</td></tr>
+	<tr><td>&#8209;&#8209;first=FIRSTPAGE</td><td>starting page (default is 1)</td></tr>
+	<tr><td>&#8209;&#8209;last=LASTPAGE</td><td>ending page (default is last page of the document)</td></tr>
+	<tr><td>&#8209;&#8209;nonfiction</td><td>for books that use block quoting at the same inset as the paragraph indent</td></tr>
+	<tr><td>&#8209;&#8209;ragright</td><td>text is rag-right, NOT justify (default is justify)</td></tr>
+	<tr><td>&#8209;&#8209;shortlines</td><td>paragraphs end with short lines (only necessary for rag right documents with no paragraph indent and no after paragraph spacing.</td></tr>
+	<tr><td>&#8209;&#8209;top=MIN</td><td>crop text whose top is less than or equal to MIN</td></tr>
+	<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+	<tr><td>&#8209;&#8209;showdebug</td><td>print debugging options</td></tr>
+	<tr><td>&#8209;&#8209;version</td><td>print current version</td></tr>
+	<tr><td>&#8209;&#8209;help</td><td>print usage</td></tr>
+	</table>
+<h2>Example</h2>
+    <p>Options can be combined. An example using a combination of the options in the description section is:</p>
+    <pre class="code">pdfreflow --dontreflow="1-6,10,198-201" --top=36 --bottom=506 mybook.xml</pre>
+<h2>Troubleshooting</h2>
+    <p>While <b>pdfreflow</b> tries it best, sometimes it can not correctly reflow all documents. Here are some tips to get a better output document.
+    <h4>Paragraph are too large</h4>
+    <p>If your book does not have paragraph indenting or vertical spacing after every paragraph, too much text may be reflowed into each paragraph. You might try the &#8209;&#8209;shortlines option. The argument is a percentage between 1 and 100. If 0 is specified, you get the default value (currently 80). This percentage is used against the longest line width in the document, and lines that are shorter than this percentage are considered the end of a paragraph</p>
+    <pre class="code">pdfreflow --shortlines=0 mybook.xml</pre>
+    <h4>Paragraph are incorrectly reflowed</h4>
+    <p>If your input document is not justified, make sure you specified the &#8209;&#8209;ragright option.</p>
+    <p><b>pdfreflow</b> is configured to deal with fiction, which often has indented paragraphs and/or vertical spacing after a pararaph. If your book has indenting, but is not fiction with dialog, try using the &#8209;&#8209;nonfiction option.</p>
+    <pre class="code">pdfreflow --nonfiction mybook.xml</pre>
+    <p>If your book has vastly differently formatted sections, you might try look at the <a href="#reflowspecified">Reflow Specified Pages</a> section above.</p>
+<h2>Limitations</h2>
+<ul>
+<li>Only simple book formats are supported. This is not a general purpose reflower for a MS Word or desktop publishing document. Pictures are not supported.</li>
+<li>Mutiple columns are not supported.</li>
+<li>Footnotes will cause problems. At this point they just show up wherever they are in the paragraph, potentially splitting a paragraph into two pieces.</li>
+</ul>
+    <h2>Getting pdfreflow</h2>
+    <p>There are binaries for Windows XP, Ubuntu 8.04, and Mac OSX 10.5 (and later) at <a href="http://www.mobileread.com/forums/showthread.php?t=83094">Mobile Read</a>. The open source of <b>pdfreflow</b> is copyrighted under GNU GPL, and source is available at <a href="http://sourceforge.net/projects/pdfreflow/">SourceForge</a></p>
+    <h2>Getting pdftohtml</h2>
+    <p>To get a copy of <b>pdftohtml</b>, without building it from source, here are some options:</p>
+	<table>
+	<tr><td>O.S.</td><td>Fetch from</td></tr>
+	<tr><td>Ubuntu</td><td>Use Synaptic Package Manager to fetch poppler-utils</td></tr>
+	<tr><td>Mac</td><td>Download Calibre for Mac. There is a copy of <b>pdftohtml</b> inside of Calibre.app under <span class="code">/Applications/calibre.app/Contents/Frameworks/</span>
+	<pre class="tablecode">PATH=$PATH:/Applications/calibre.app/Contents/Frameworks
+htmltopdf -xml mybook.pdf</pre></td>
+	</tr>
+	<tr><td>Windows&nbsp;</td><td>Download Calibre for Windows. There is a copy of <b>pdftohtml</b> inside of Calibre under <span class="code">C:\Progam Files\Calibre2</span>. Make sure to add <span class="code">C:\Progam Files\Calibre2</span> and <span class="code">C:\Progam Files\Calibre2\DLLs</span> to your path, ie:
+	<pre class="tablecode">PATH=%PATH%;C:\Progam Files\Calibre2;C:\Progam Files\Calibre2\DLLs
+htmltopdf -xml mybook.pdf</pre></td>
+	</table>
+</body>
+</html>
